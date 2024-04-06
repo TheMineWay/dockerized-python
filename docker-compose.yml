@@ -1,0 +1,9 @@
+services:
+  program:
+    container_name: dockerized_python
+    image: python:3.12
+    volumes:
+      - ./src:/code
+    working_dir: /code
+    tty: true
+    stdin_open: true
