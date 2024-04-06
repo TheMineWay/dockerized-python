@@ -1,5 +1,1 @@
-print("It works!")
-
-a = input()
-
-print(a)
+print("Running inside Docker")
